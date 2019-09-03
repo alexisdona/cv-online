@@ -91,7 +91,7 @@
         
         html,
         body {
-            background: #181818;
+            background: rgb(69, 0, 180);
             font-family: 'Lato', helvetica, arial, sans-serif;
             font-size: 14px;
             color: #222;
@@ -117,8 +117,7 @@
         
         .mainDetails {
             padding: 25px 35px;
-            border-bottom: 2px solid #cf8a05;
-            background: #ededed;
+            border-bottom: 2px solid #444;
         }
         
         #name h1 {
@@ -383,18 +382,17 @@
             animation-name: reset, fade-in;
             animation-duration: 1.5s;
             animation-timing-function: ease-in;
-            background-color: blue;
         }
         
         .quickFade {
             -webkit-animation-name: reset, fade-in;
-            -webkit-animation-duration: 2.5s;
+            -webkit-animation-duration: 1.5s;
             -webkit-animation-timing-function: ease-in;
             -moz-animation-name: reset, fade-in;
-            -moz-animation-duration: 2.5s;
+            -moz-animation-duration: 1.5s;
             -moz-animation-timing-function: ease-in;
             animation-name: reset, fade-in;
-            animation-duration: 2.5s;
+            animation-duration: 1.5s;
             animation-timing-function: ease-in;
         }
         
@@ -436,7 +434,7 @@
         }
         
         .perfil a:hover {
-            color: #cf8a05;
+            color: #444;
             font-size: 15px;
         }
         
@@ -451,7 +449,7 @@
         }
         
         .experiencia a:hover {
-            color: #cf8a05;
+            color: #444;
             font-size: 15px;
         }
         
@@ -466,7 +464,7 @@
         }
         
         .conocimientos a:hover {
-            color: #cf8a05;
+            color: #444;
             font-size: 15px;
         }
         
@@ -481,7 +479,7 @@
         }
         
         .cursos a:hover {
-            color: #cf8a05;
+            color: #444;
             font-size: 15px;
         }
         
@@ -496,7 +494,7 @@
         }
         
         .educacion a:hover {
-            color: #cf8a05;
+            color: #444;
             font-size: 15px;
         }
         
@@ -511,7 +509,7 @@
         }
         
         .contacto a:hover {
-            color: #cf8a05;
+            color: #444;
             font-size: 15px;
         }
         
@@ -523,4 +521,15 @@
             -o-transition: all .3s ease-in;
             -ms-transition: all .3s ease-in;
             transition: all .3s ease-in;
+        }
+        
+        .idiomas {
+            width: 70%;
+            display: inline-flex;
+            float: right;
+        }
+        
+        .bandera {
+            background: #ededed;
+            padding: 0%;
         }
