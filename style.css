@@ -56,13 +56,13 @@
         details,
         figcaption,
         figure,
-        footer,
         header,
         hgroup,
         menu,
         nav,
         section,
         summary,
+        footer,
         time,
         mark,
         audio,
@@ -80,10 +80,10 @@
         details,
         figcaption,
         figure,
-        footer,
         header,
         hgroup,
         menu,
+        footer,
         nav,
         section {
             display: block;
@@ -155,22 +155,15 @@
         }
         
         #contactDetails {
-            float: right;
-            vertical-align: middle;
+            width: 90%; 
+            max-width: 800px;
+            background: #f3f3f3;
+            margin: 30px auto;
+            text-align: center;
         }
         
-        #contactDetails ul {
-            list-style-type: none;
-            font-size: 0.9em;
-            margin-top: 2px;
-        }
-        
-        #contactDetails ul li {
-            margin-bottom: 3px;
-            color: #444;
-        }
-        
-        #contactDetails ul li a,
+    
+        #contactDetails span a,
         a[href^=tel] {
             color: #444;
             text-decoration: none;
@@ -181,7 +174,7 @@
             transition: all .3s ease-in;
         }
         
-        #contactDetails ul li a:hover {
+        #contactDetails span a:hover {
             color: #cf8a05;
         }
         
@@ -260,8 +253,7 @@
             #headshot {
                 display: none;
             }
-            #name,
-            #contactDetails {
+            #name {
                 float: none;
                 width: 100%;
                 text-align: center;
@@ -508,21 +500,7 @@
             transition: all .3s ease-in;
         }
         
-        .contacto a:hover {
-            color: rgb(14, 13, 68);
-            font-size: 14px;
-        }
-        
-        .contacto {
-            color: #444;
-            text-decoration: none;
-            -webkit-transition: all .3s ease-in;
-            -moz-transition: all .3s ease-in;
-            -o-transition: all .3s ease-in;
-            -ms-transition: all .3s ease-in;
-            transition: all .3s ease-in;
-        }
-        
+         
         .idiomas {
             display: inline-flex;
             float: right;
