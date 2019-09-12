@@ -434,8 +434,8 @@
         }
         
         .perfil a:hover {
-            color: #444;
-            font-size: 15px;
+            color: rgb(14, 13, 68);
+            font-size: 14px;
         }
         
         .perfil {
@@ -449,8 +449,8 @@
         }
         
         .experiencia a:hover {
-            color: #444;
-            font-size: 15px;
+            color: rgb(14, 13, 68);
+            font-size: 14px;
         }
         
         .experiencia {
@@ -464,8 +464,8 @@
         }
         
         .conocimientos a:hover {
-            color: #444;
-            font-size: 15px;
+            color: rgb(14, 13, 68);
+            font-size: 14px;
         }
         
         .conocimientos {
@@ -479,8 +479,8 @@
         }
         
         .cursos a:hover {
-            color: #444;
-            font-size: 15px;
+            color: rgb(14, 13, 68);
+            font-size: 14px;
         }
         
         .cursos {
@@ -494,8 +494,8 @@
         }
         
         .educacion a:hover {
-            color: #444;
-            font-size: 15px;
+            color: rgb(14, 13, 68);
+            font-size: 14px;
         }
         
         .educacion {
@@ -509,8 +509,8 @@
         }
         
         .contacto a:hover {
-            color: #444;
-            font-size: 15px;
+            color: rgb(14, 13, 68);
+            font-size: 14px;
         }
         
         .contacto {
@@ -529,8 +529,9 @@
         }
         
         .bandera {
-            background: #ededed;
+            background: #f3f3f3;
             padding: 0%;
+            justify-content: space-between;
         }
         
         .panelData {
